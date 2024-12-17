@@ -7,11 +7,8 @@ app = FastAPI()
 
 os.makedirs(settings.UPLOAD_FOLDER, exist_ok=True)
 
-@app.get("/")
-def read_root():
-    return {"message": "¡Hola, FastAPI!"}
 
-@app.post("/upload/")
+@app.post("/upload/", summary="Upload a file and scan with VirusTotal")
 async def upload_file(file: UploadFile = File(...)):
     if file.content_type not in ["application/pdf", "image/jpeg", "image/png"]:
         raise HTTPException(status_code=400, detail="Tipo de archivo no permitido")
