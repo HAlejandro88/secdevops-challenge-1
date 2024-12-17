@@ -1,7 +1,7 @@
 # FastAPI VirusTotal 
 
 ## Clone the Repository
-`git clone `
+`git clone  https://github.com/HAlejandro88/secdevops-challenge-1`
 
 ## Docker Build and Run Instructions
 
