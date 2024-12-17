@@ -1,0 +1,50 @@
+# Bytecode de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de entornos virtuales
+env/
+venv/
+ENV/
+.venv/
+*.env
+
+# Archivos de configuración de IDEs (por ejemplo, VSCode)
+.vscode/
+
+# Archivos de configuración de PyCharm
+.idea/
+
+# Archivos de configuraciones de otros IDEs
+*.sublime-workspace
+*.sublime-project
+
+# Archivos generados por el sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos de dependencias de Python
+*.egg
+*.egg-info
+dist/
+build/
+
+# Archivos de configuración de Docker
+docker-compose.override.yml
+docker-compose.yml
+
+# Archivos temporales
+*.log
+*.bak
+*.swp
+
+# Archivos de bases de datos locales
+*.sqlite3
+
+# Archivos de configuración de FastAPI
+*.db
+
+# Carpeta de uploads si tienes configurado un directorio específico
+uploads/
